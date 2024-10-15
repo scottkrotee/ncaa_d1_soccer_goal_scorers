@@ -2,7 +2,7 @@ Rank,Name,Team,Cl,Games,Goals,Per Game
 1,Jesus Barea,Missouri St.,Sr.,9,10,1.11
 -,Alec Hughes,Massachusetts,Sr.,9,10,1.11
 -,Matthew Roou,Notre Dame,Sr.,9,10,1.11
-4,Michael Huss,Liberty,Sr.,7,7,1.00
+4,Michael Huss,Liberty,Sr.,8,8,1.00
 -,Sergio Ors Navarro,West Virginia,Sr.,9,9,1.00
 6,Alexis Ledoux,UC Santa Barbara,Sr.,10,9,.90
 -,Trace Terry,Bowling Green,Jr.,10,9,.90
@@ -17,18 +17,18 @@ Rank,Name,Team,Cl,Games,Goals,Per Game
 -,Luis Sahmkow,Pittsburgh,Sr.,10,8,.80
 17,Ethan Ballek,South Carolina,Jr.,9,7,.78
 -,Cole Werthmuller,Wright St.,Sr.,9,7,.78
--,Omar Yehya,Utah Valley,Sr.,9,7,.78
-20,Shane Anderson,Purdue Fort Wayne,Sr.,8,6,.75
+19,Shane Anderson,Purdue Fort Wayne,Sr.,8,6,.75
 -,Dominick Bachstein,Drexel,Sr.,8,6,.75
 -,Ryan Holmes,Ga. Southern,So.,8,6,.75
 -,Harrison Myring,South Carolina,Sr.,8,6,.75
 -,Colin Veltri,Elon,Jr.,8,6,.75
-25,Elias Khodri,Gardner-Webb,Jr.,7,5,.71
+24,Elias Khodri,Gardner-Webb,Jr.,7,5,.71
 -,Hjalti Sigurdsson,Dayton,Sr.,7,5,.71
 -,Sergi Solans,Oregon St.,Fr.,7,5,.71
-28,Elie Kisoka,Kansas City,Jr.,10,7,.70
+27,Elie Kisoka,Kansas City,Jr.,10,7,.70
 -,Omar Mora,Oral Roberts,Jr.,10,7,.70
 -,Marius Stenner,Delaware,Fr.,10,7,.70
+-,Omar Yehya,Utah Valley,Sr.,10,7,.70
 31,Daniel D'Ippolito,Fordham,Jr.,9,6,.67
 -,Joseph Farouz,Yale,So.,9,6,.67
 -,Alex Harris,Cornell,So.,9,6,.67
@@ -63,17 +63,17 @@ Rank,Name,Team,Cl,Games,Goals,Per Game
 62,Cesar Bahena,San Diego,Jr.,10,5,.50
 -,Sam Bassett,Denver,Sr.,10,5,.50
 -,Roy Biegon,Lafayette,So.,8,4,.50
+-,Austin Brummett,San Diego St.,Jr.,10,5,.50
 -,AJ Chastonay,Belmont,Sr.,10,5,.50
 -,Mason Christian,Howard,Sr.,8,4,.50
 -,Eli Conway,UConn,Jr.,8,4,.50
 -,Momo Diop,Rider,Jr.,10,5,.50
 -,Sam Donnellan,Delaware,Sr.,10,5,.50
 -,Enzo Dovlo,UNC Greensboro,So.,8,4,.50
--,Liam Gainey,Western Ill.,Jr.,10,5,.50
 -,Chase Gilley,Robert Morris,Sr.,10,5,.50
--,Ethan Giwa-McNeil,Houston Christian,Sr.,8,4,.50
 -,Matthew Goncalves,New Hampshire,Sr.,8,4,.50
 -,Marek Gonda,George Mason,Sr.,8,4,.50
+-,Gage Guerra,Louisville,Sr.,10,5,.50
 -,Ryan Hannosh,Butler,So.,10,5,.50
 -,Evan Jones,Holy Cross,Sr.,10,5,.50
 -,Filip Kangeman,Quinnipiac,Sr.,8,4,.50
@@ -89,18 +89,18 @@ Rank,Name,Team,Cl,Games,Goals,Per Game
 -,Wyatt Stevens,Navy,Fr.,8,4,.50
 -,Scott Vatne,Elon,Sr.,10,5,.50
 -,Fabian Wagner,Saint Francis,So.,8,4,.50
--,Titus Washington,Seattle U,Sr.,8,4,.50
 -,Jacob Woznicki,Hofstra,Sr.,10,5,.50
-93,Nacho Diaz Barragan,Evansville,Sr.,11,5,.45
+92,Nacho Diaz Barragan,Evansville,Sr.,11,5,.45
+-,Liam Gainey,Western Ill.,Jr.,11,5,.45
 -,Noah James,Western Mich.,So.,11,5,.45
 -,Greyson Mercer,Western Mich.,Sr.,11,5,.45
 -,Chris Swider,Gonzaga,Sr.,11,5,.45
 97,Michael Adedokun,Ohio St.,Sr.,9,4,.44
 -,David Ajagbe,Ohio St.,Fr.,9,4,.44
--,Austin Brummett,San Diego St.,Jr.,9,4,.44
 -,Simon Carlson,West Virginia,Sr.,9,4,.44
 -,Simao Coelho,Longwood,Jr.,9,4,.44
--,Isaac Emojong,Utah Valley,Fr.,9,4,.44
+-,Blake D'Agostino,California Baptist,Fr.,9,4,.44
+-,Ethan Giwa-McNeil,Houston Christian,Sr.,9,4,.44
 -,Sabri Hanni,UConn,So.,9,4,.44
 -,Trevor Harrison,Stony Brook,Sr.,9,4,.44
 -,Luke Hille,North Carolina,Sr.,9,4,.44
@@ -122,8 +122,9 @@ Rank,Name,Team,Cl,Games,Goals,Per Game
 -,Lineker Rodrigues dos Santos,Marshall,Sr.,9,4,.44
 -,Guershom Sylvain,Detroit Mercy,Jr.,9,4,.44
 -,Alejandro Velazquez-Lopez,South Carolina,Fr.,9,4,.44
+-,Titus Washington,Seattle U,Sr.,9,4,.44
 -,Misei Yoshizawa,Clemson,Jr.,9,4,.44
-125,Martin Bakken,Dayton,So.,7,3,.43
+126,Martin Bakken,Dayton,So.,7,3,.43
 -,Michael Blevins,CSUN,So.,7,3,.43
 -,Ziv Dahan,Manhattan,So.,7,3,.43
 -,Peter Gansallo,Howard,Sr.,7,3,.43
@@ -135,21 +136,24 @@ Rank,Name,Team,Cl,Games,Goals,Per Game
 -,Ethan Sassine,Dayton,Sr.,7,3,.43
 -,Kgodiso Sukati,UTRGV,Jr.,7,3,.43
 -,Dylan Tellado,Harvard,So.,7,3,.43
-137,Sekou Agard,Mercer,Sr.,10,4,.40
+138,Sekou Agard,Mercer,Sr.,10,4,.40
 -,Bryan Akongo,Rider,Sr.,10,4,.40
 -,Mitchell Baker,Georgetown,Fr.,10,4,.40
 -,Colin Beasley,La Salle,Sr.,10,4,.40
 -,Zach Bohane,Stanford,Jr.,10,4,.40
 -,Curt Calov,Rutgers,Sr.,10,4,.40
 -,Dzenan Cerimagic,USC Upstate,So.,10,4,.40
+-,Isaac Emojong,Utah Valley,Fr.,10,4,.40
 -,Edwin Espinal-Elvir,Wright St.,So.,10,4,.40
 -,Luis Flores,Oral Roberts,Sr.,10,4,.40
 -,Lennon Gill,Hofstra,Fr.,10,4,.40
 -,Colin Griffith,Maryland,Jr.,10,4,.40
+-,Angel Iniguez,San Jose St.,Jr.,10,4,.40
 -,Mikey Johnson,Delaware,Jr.,10,4,.40
 -,Theo Klein,Omaha,Sr.,10,4,.40
 -,Richard Monath,Delaware,So.,10,4,.40
 -,Oje Ofunrein,Denver,Sr.,10,4,.40
+-,Ryan Okerayi,Houston Christian,So.,10,4,.40
 -,Patrick Osiecki,Monmouth,Jr.,10,4,.40
 -,Anthony Randazzo,Binghamton,So.,10,4,.40
 -,Bruno Rosa,Providence,Jr.,10,4,.40
