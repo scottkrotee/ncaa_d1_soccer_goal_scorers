@@ -68,14 +68,11 @@ if all_headers and all_rows:
     # Get today's date in YYYY-MM-DD format
     today_date = datetime.today().strftime('%Y-%m-%d')
 
-    # Define the folder path where you want to save the file
-    folder_path = r'C:\Users\scott\OneDrive\Desktop\VS Code\Web Scraping\ncaa-d1-soccer-goal-scorers'
+    # Determine the folder path dynamically for cross-platform compatibility
+    script_dir = os.path.dirname(os.path.abspath(__file__))
 
-    # Ensure the folder exists (optional but good practice)
-    os.makedirs(folder_path, exist_ok=True)
-
-    # Create the full file path with date in the filename
-    file_path = os.path.join(folder_path, f"ncaa_goal_scorers_stats_{today_date}.csv")
+    # Create the full file path with the date in the filename
+    file_path = os.path.join(script_dir, f"ncaa_goal_scorers_stats_{today_date}.csv")
 
     # Save the DataFrame to the specified folder with the date in the filename
     df.to_csv(file_path, index=False)
@@ -114,12 +111,12 @@ if all_headers and all_rows:
 
     ### Scatter Plot with Name Display Logic and Correct Hover Text ###
     def display_scatter(df):
-        grouped = df.groupby(['Per Game', 'Games']).agg({
-            'Name': lambda x: ', '.join(x),  # Join player names with commas
-            'Goals': 'mean',
-            'Team': lambda x: ', '.join(x),  # Join teams with commas
-            'Name': 'count'  # Count the number of players sharing the same point
-        }).rename(columns={'Name': 'Player Count'}).reset_index()
+        grouped = df.groupby(['Per Game', 'Games']).agg(
+            Player_Names=('Name', lambda x: ', '.join(x)),
+            Goals=('Goals', 'mean'),
+            Team=('Team', lambda x: ', '.join(x)),
+            Player_Count=('Name', 'count')
+        ).reset_index()
 
         fig = go.Figure()
 
@@ -144,11 +141,14 @@ if all_headers and all_rows:
         hover_text = [create_hover_text(row) for i, row in grouped.iterrows()]
 
         # Color intensity based on Goals Per Game and larger markers for top players
-        marker_size = [20 if row['Name'] in top_3_names else 16 for _, row in df.iterrows()]  # Larger for top 3
+        marker_size = [
+            20 if any(name in top_3_names for name in row['Player_Names'].split(', ')) else 16
+            for _, row in grouped.iterrows()
+        ]
 
         # Stagger names, group them, and avoid showing top 3 names twice
         player_labels = [
-            f"{row['Player Count']} Players" if row['Player Count'] > 2
+            f"{row['Player_Count']} Players" if row['Player_Count'] > 2
             else ', '.join(
                 name for name in df[(df['Per Game'] == row['Per Game']) & (df['Games'] == row['Games'])]['Name'].tolist()
                 if name not in top_3_names)  # Exclude top 3 names from white labels
