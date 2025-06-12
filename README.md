@@ -71,12 +71,3 @@ if all_headers and all_rows:
 
 ## Contribution
 Feel free to fork this repository, suggest improvements, or submit pull requests.
-
-
-
-
-
-
-
-
- 
